@@ -14,7 +14,7 @@ Ceej is a set of simple, colorful HTML email templates geared towards account ma
 - Use media queries starting at 480px
 - Email structure must have parent table that wraps every module in its own table row/cell
 - No empty cells or spacer gifs - use padding on table cells (exception of empty cells for some hybrid/spongy)
-- Use semantic text tags <h1> <p>
+- Use semantic text tags
 - Include View in browser, unsubscribe, address links
 - Traditional responsive - fixed table w/ media queries
 - Base 14px text
@@ -68,7 +68,7 @@ a[x-apple-data-detectors] {
 }
 ```
 
-## Android 4.4 hack - Insert at bottom of <style>
+## Android 4.4 hack - Insert at bottom of style tag
 
 ```
 div[style*="margin: 16px 0;"] { margin:0 !important; }
