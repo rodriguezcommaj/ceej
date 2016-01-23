@@ -2,9 +2,9 @@
 
 Ceej is a set of simple, colorful HTML email templates geared towards account management. It follows the Litmus Template Guidelines and features a full set of templates for damned near any approach to email marketing: traditional responsive, mobile-first, and hybrid, too. 
 
-# Litmus Template Guidelines
+## Litmus Template Guidelines
 
-## Basic Requirements
+### Basic Requirements
 
 - CSS must be inlined
 - Base width 600px (for hybrid/spongy + traditional responsive)
@@ -22,26 +22,26 @@ Ceej is a set of simple, colorful HTML email templates geared towards account ma
 - Must render in all available Litmus clients
 
 
-## Doctype
+### Doctype
 
 ```
 <!doctype html>
 ```
 
-## HTML / Head tags (plain)
+### HTML / Head tags (plain)
 
 ```
 <html>
 <head>
 ```
 
-## Title (empty)
+### Title (empty)
 
 ```
 <title></title>
 ```
 
-## Meta tags
+### Meta tags
 
 ```
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -49,7 +49,7 @@ Ceej is a set of simple, colorful HTML email templates geared towards account ma
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 ```
 
-## Reset CSS styles
+### Reset CSS styles
     
 ```
 body, table, td, a{-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
@@ -68,19 +68,19 @@ a[x-apple-data-detectors] {
 }
 ```
 
-## Android 4.4 hack - Insert at bottom of style tag
+### Android 4.4 hack - Insert at bottom of style tag
 
 ```
 div[style*="margin: 16px 0;"] { margin:0 !important; }
 ```
 
-## Body
+### Body
 
 ```
 <body style=”margin: 0; padding: 0;”>
 ```
 
-## Hidden Preheader Text
+### Hidden Preheader Text
 
 ```
 <div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
@@ -88,13 +88,13 @@ div[style*="margin: 16px 0;"] { margin:0 !important; }
 </div>
 ```
 
-## MSO Comments
+### MSO Comments
 
 ```
 <!--[if (gte mso 9)|(IE)]>
 ```
 
-## Buttons
+### Buttons
 
 If solid color, use padding+border-based approach:
 
@@ -114,7 +114,7 @@ If solid color, use padding+border-based approach:
 
 If gradient or background image, use [VML approach](http://buttons.cm).
 
-## Links
+### Links
 
 Link to litmus.com
 
@@ -122,22 +122,22 @@ Link to litmus.com
 <a href=”http://litmus.com” target=”_blank” style=”color: {color};”> </a>
 ```
 
-## Images
+### Images
 
 ```
 <img src=”#” alt=”Alt Text” style=”color: {color}; font-size: {font-size}; display: block; border: 0px;”>
 ```
 
-## Background Images 
+### Background Images 
 
 Use backgrounds.cm approach if used.
 
-## Web Fonts
+### Web Fonts
 
 If using @font-face, then wrap in `@media { }` or `@import` as normal.
 
 
-## Hybrid/Spongy Modules
+### Hybrid/Spongy Modules
 
 Here are the hybrid modules to work off of (based off Fabio’s code w/ some slight modifications):
 
@@ -155,7 +155,7 @@ Here are the hybrid modules to work off of (based off Fabio’s code w/ some sli
 - [4 column](https://litmus.com/builder/c02b913)  
 
 
-## Slate Example
+### Slate Example
 
 Here are the hybrid/spongy coding guidelines in action with our Slate collection of templates:
 
