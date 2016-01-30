@@ -124,8 +124,10 @@ Link to litmus.com
 
 ### Images
 
+Use Julie Ng's responsive images without media queries. 
+
 ```
-<img src=”#” alt=”Alt Text” style=”color: {color}; font-size: {font-size}; display: block; border: 0px;”>
+<img alt="Alt Text" src="#" width="600" style="display: block; width: 100%; max-width: 100%; min-width: 100px; font-family: Helvetica, Arial, sans-serif; color: #333333; font-size: 18px;" border="0">
 ```
 
 ### Background Images 
@@ -134,8 +136,7 @@ Use backgrounds.cm approach if used.
 
 ### Web Fonts
 
-If using @font-face, then wrap in `@media { }` or `@import` as normal.
-
+Use @font-face, then wrap in `@media { }` to prevent Outlook from using Times New Roman as a fallback.
 
 ### Hybrid/Spongy Modules
 
