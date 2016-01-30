@@ -144,7 +144,7 @@ Use Julie Ng's responsive images without media queries.
 
 ### Background Images 
 
-Use backgrounds.cm approach if used.
+Use [backgrounds.cm](http://backgrounds.cm) approach if used.
 
 ### Web Fonts
 
