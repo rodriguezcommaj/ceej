@@ -2,6 +2,18 @@
 
 Ceej is a set of simple, colorful HTML email templates geared towards account management. It follows the Litmus Template Guidelines and features a full set of templates for damned near any approach to email marketing: traditional responsive, mobile-first, and hybrid, too. 
 
+## Colors
+
+Colors are as follows:
+
+```
+blue = #539be2
+green = #5dc1a3
+yellow = #f3b45d
+red = #ec6d64
+purple = #7c72dc
+```
+
 ## Litmus Template Guidelines
 
 ### Basic Requirements
