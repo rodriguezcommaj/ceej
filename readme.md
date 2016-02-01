@@ -2,6 +2,8 @@
 
 Ceej is a set of simple, colorful HTML email templates geared towards account management. It follows the Litmus Template Guidelines and features a full set of templates for damned near any approach to email marketing: traditional responsive, mobile-first, and hybrid, too. 
 
+Has basic support for both [Campaign Monitor](http://campaignmonitor.com) and [MailChimp](http://mailchimp.com), nothing too fancy, though - just worried about making things editable. Do with them what you will. 
+
 ## Colors
 
 Colors are as follows:
