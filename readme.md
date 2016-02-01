@@ -8,8 +8,8 @@ Colors are as follows:
 
 ```
 blue = #539be2
-green = #5dc1a3
-yellow = #f3b45d
+green = #66BB7F
+yellow = #FFA73B
 red = #ec6d64
 purple = #7c72dc
 ```
