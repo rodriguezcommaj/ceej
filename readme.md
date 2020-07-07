@@ -45,7 +45,7 @@ purple = #7c72dc
 ### HTML / Head tags (plain)
 
 ```
-<html>
+<html lang="en">
 <head>
 ```
 
@@ -113,10 +113,10 @@ div[style*="margin: 16px 0;"] { margin:0 !important; }
 If solid color, use padding+border-based approach:
 
 ```
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td>
-      <table border="0" cellspacing="0" cellpadding="0">
+      <table role="presentation" border="0" cellspacing="0" cellpadding="0">
         <tr>
           <td align="center" style="-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;" bgcolor="#e9703e"><a href="https://litmus.com" target="_blank" style="font-size: 16px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; text-decoration: none; border-radius: 3px; padding: 12px 18px; border: 1px solid #e9703e; display: inline-block;">I am a button &rarr;</a></td>
         </tr>
